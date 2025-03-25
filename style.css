@@ -76,6 +76,16 @@ body {
     margin: 10px 0;
 }
 
+a {
+    display: inline-block;
+    vertical-align: middle;
+    color: var(--secondary-color);
+    font-size: 1.5em;
+  }
+  
+  a:active, a:hover {
+    color: var(--chat-bg-color);
+  }
 
 .about-section h4::after {
     content: '';
@@ -132,7 +142,7 @@ marquee {
     }
 
     .contact-section {
-        padding: 30px 10px;
+        padding: 20px 10px;
     }
 }
 
